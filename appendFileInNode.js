@@ -12,3 +12,33 @@ fs.appendFile('input.text', new_data, (err) => {
     throw err;
   console.log('the new_content was appended successfully')
 });
+
+// Appending the file Synchronously : 
+
+let fs = require('fs');
+
+let content = "Wer are appending this file synchronously using node.js";
+fs.appendFileSync("input.txt", content);
+
+console.log("File Appended Successfully");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
