@@ -2,7 +2,7 @@
 
 It is a journey of being best and whats better way to be the best by doing Nodejs practice daily for 30 days. It's a barebose Nodejs, no nothing express or anything.
 
-**Link to corgi pictures:** http://recruiters-love-seeing-live-demos.com/
+**Link to corgi pictures:** http://placecorgi.com/1200/650
 
 ![alt tag](http://placecorgi.com/1200/650)
 
