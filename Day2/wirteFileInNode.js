@@ -10,7 +10,7 @@ fs.writeFile('message.txt', content, (err) => {
   if (err)
     throw err;
   console.log("it's saved!");
-}
+})
 
 
 // Writing the file Synchronously : 
