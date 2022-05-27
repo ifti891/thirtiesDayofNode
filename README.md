@@ -13,7 +13,6 @@ It is a journey of being best and whats better way to be the best by doing Nodej
 Just took a single concept everyday, because i love Nodejs. 
 
 ## Optimizations
-*(optional)*
 
 As i was occupied with many other projects i can only practice and work with barebone Nodejs and javascript. 
 
