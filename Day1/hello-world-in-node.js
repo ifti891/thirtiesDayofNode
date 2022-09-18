@@ -17,3 +17,5 @@ server.listen(port, host, (error) => {
 	}
 	console.log(`server is listening on host: ${host} : port : ${port}`)
 })
+
+// console.log("hello world");
