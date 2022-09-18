@@ -36,5 +36,5 @@ server.listen(PORT, HOST, (error) => {
 		return console.log('Error occured : ', error)
 
 	}
-	console.log(`server is listening on host: ${HOST} : and port : ${PORT}`)
+	console.log(`server is listening on host: ${HOST} : port : ${PORT}`)
 })
