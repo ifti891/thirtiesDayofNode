@@ -19,23 +19,23 @@
 // })
 
 //
-let http = require('http')
-let HOST = '127.0.0.1'
-let PORT = 3000
+// let http = require('http')
+// let HOST = '127.0.0.1'
+// let PORT = 3000
 
-let server = http.createServer((req, res) => {
-  res.writeHead(200, {'Content-Type': 'text/plain'})
-  res.write('Hello world this response is served as string')
-  res.end()
-})
+// let server = http.createServer((req, res) => {
+//   res.writeHead(200, {'Content-Type': 'text/plain'})
+//   res.write('Hello world this response is served as string')
+//   res.end()
+// })
 
-server.listen(PORT, HOST, (error) => {
-  if(error){
-    return console.log('Error occured : ', error)
+// server.listen(PORT, HOST, (error) => {
+//   if(error){
+//     return console.log('Error occured : ', error)
 
-  }
-  console.log(`Server is listenng on host : ${HOST} and port ${PORT}`)
-})
+//   }
+//   console.log(`Server is listenng on host : ${HOST} and port ${PORT}`)
+// })
 
 let http = require('http')
 const { request } = require('https')
@@ -44,4 +44,12 @@ let PORT = 3000
 
 let server = http.createServer((req, res) => {
   request.writeHead(200,{'Content-Type': 'text/plain'})
+  res.write("Hello world this response is served as string")
+  res.end()
+})
+
+server.listen(PORT, HOSt, (error) => {
+  if(error){
+    return console.log(`Server is listening on host : ${HOST} and port : ${PORT}`)
+  }
 })
