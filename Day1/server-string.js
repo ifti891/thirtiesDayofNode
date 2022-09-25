@@ -38,7 +38,6 @@
 // })
 
 let http = require('http')
-const { request } = require('https')
 let HOSt = '127.0.0.1'
 let PORT = 3000
 
@@ -53,3 +52,7 @@ server.listen(PORT, HOSt, (error) => {
     return console.log(`Server is listening on host : ${HOST} and port : ${PORT}`)
   }
 })
+
+
+let http = require('http')
+co
